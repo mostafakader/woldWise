@@ -1,0 +1,126 @@
+/* .city {
+  padding: 2rem 3rem;
+  max-height: 70%;
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  overflow: scroll;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.city h6 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--color-light--1);
+}
+
+.city h3 {
+  font-size: 1.9rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.city h3 span {
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.city p {
+  font-size: 1.6rem;
+}
+
+.city a:link,
+.city a:visited {
+  font-size: 1.6rem;
+  color: var(--color-brand--1);
+} */
+
+/* تنسيقات افتراضية */
+.city {
+  padding: 2rem 3rem;
+  max-height: 70%;
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  overflow: scroll;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.city h6 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--color-light--1);
+}
+
+.city h3 {
+  font-size: 1.9rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.city h3 span {
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.city p {
+  font-size: 1.6rem;
+}
+
+.city a:link,
+.city a:visited {
+  font-size: 1.6rem;
+  color: var(--color-brand--1);
+}
+
+/* Media Queries لتعديلات الشاشات */
+@media (max-width: 768px) {
+  .city {
+    padding: 1.5rem 2rem; /* تقليل التعبئة للهواتف الذكية */
+    max-height: 80%; /* تعديل ارتفاع العنصر للهواتف الذكية */
+    overflow-y: auto; /* استخدام التمرير الرأسي عند الحاجة */
+  }
+
+  .city h6 {
+    font-size: 1rem; /* تقليل حجم الخط للهواتف الذكية */
+  }
+
+  .city h3 {
+    font-size: 1.6rem; /* تقليل حجم العنوان للهواتف الذكية */
+  }
+
+  .city h3 span {
+    font-size: 2.5rem; /* تقليل حجم الرقم الكبير للهواتف الذكية */
+  }
+
+  .city p {
+    font-size: 1.4rem; /* تقليل حجم الفقرة للهواتف الذكية */
+  }
+
+  .city a:link,
+  .city a:visited {
+    font-size: 1.4rem; /* تقليل حجم الروابط للهواتف الذكية */
+  }
+}

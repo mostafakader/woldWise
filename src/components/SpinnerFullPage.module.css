@@ -1,0 +1,57 @@
+/* .spinnerFullpage {
+  margin: 2.5rem;
+  height: calc(100vh - 5rem);
+  background-color: var(--color-dark--1);
+} */
+.spinnerContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%, var(--color-light--2));
+  animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.spinnerFullpage {
+  margin: 2.5rem;
+  height: calc(100vh - 5rem);
+  background-color: var(--color-dark--1);
+}
+
+/* استعلامات الوسائط للشاشات المتوسطة */
+@media screen and (max-width: 768px) {
+  .spinner {
+    width: 4.5rem; /* تقليل العرض للدوار للشاشات المتوسطة */
+    height: 4.5rem; /* تقليل الارتفاع للدوار للشاشات المتوسطة */
+  }
+
+  .spinnerFullpage {
+    margin: 1.5rem; /* تقليل التباعد للشاشات المتوسطة */
+    height: calc(100vh - 3rem); /* تعديل الارتفاع للشاشات المتوسطة */
+  }
+}
+
+/* استعلامات الوسائط للشاشات الصغيرة */
+@media screen and (max-width: 480px) {
+  .spinner {
+    width: 3.5rem; /* تقليل العرض للدوار بشكل أكبر للشاشات الصغيرة */
+    height: 3.5rem; /* تقليل الارتفاع للدوار بشكل أكبر للشاشات الصغيرة */
+  }
+
+  .spinnerFullpage {
+    margin: 1rem; /* تقليل التباعد بشكل أكبر للشاشات الصغيرة */
+    height: calc(100vh - 2rem); /* تعديل الارتفاع بشكل أكبر للشاشات الصغيرة */
+  }
+}

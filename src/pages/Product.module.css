@@ -1,0 +1,93 @@
+ .product {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.product section {
+  width: clamp(80rem, 80%, 90rem);
+  margin: 6rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  align-items: center;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.product p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.product section a {
+  margin-top: 2rem;
+} 
+
+
+/* تنسيقات للشاشات المتوسطة */
+@media screen and (max-width: 768px) {
+  .product section {
+    grid-template-columns: 1fr; /* جعل العناصر عمودية بدلاً من جانبية في الشاشات المتوسطة */
+    gap: 3rem; /* تقليل الفجوة بين العناصر */
+  }
+
+  .product h2 {
+    font-size: 3rem; /* تصغير حجم النص للعناوين */
+  }
+
+  .product p {
+    font-size: 1.4rem; /* تصغير حجم النص للفقرات */
+  }
+
+  .product img {
+    width: 90%; /* تقليل عرض الصورة في الشاشات المتوسطة */
+    margin: 0 auto; /* توسيط الصورة */
+  }
+}
+
+/* تنسيقات للشاشات الصغيرة */
+@media screen and (max-width: 480px) {
+  .product {
+    margin: 1.5rem; /* تقليل الهوامش الخارجية في الهواتف الذكية */
+    padding: 1.5rem 2rem; /* تقليل الحواف الداخلية في الهواتف الذكية */
+  }
+
+  .product section {
+    width: 100%;
+    margin: 4rem auto; /* تقليل الهوامش الخارجية للقسم في الهواتف الذكية */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; /* تقليل الفجوة بين العناصر */
+  }
+
+  .product h2 {
+    font-size: 2.5rem; /* تصغير حجم النص للعناوين */
+    margin-bottom: 2rem; /* تقليل المسافة السفلية للعناوين */
+  }
+
+  .product p {
+    font-size: 2.2rem; /* تصغير حجم النص للفقرات */
+    margin-bottom: 2.5rem; /* تقليل المسافة السفلية للفقرات */
+  }
+
+  .product img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع للصورة */
+    margin: 0 auto; /* توسيط الصورة */
+  }
+
+  .product section a {
+    margin-top: 3.5rem; /* تقليل المسافة العلوية للرابط */
+  }
+}

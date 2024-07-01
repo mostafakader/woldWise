@@ -1,0 +1,76 @@
+{
+  "cities": [
+    {
+      "id": "7b11",
+      "cityName": "Torres de Berrellen",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-06-30T18:45:04.879Z",
+      "notes": "",
+      "position": {
+        "lat": "41.870396847093545",
+        "lng": "-1.0975070980193682"
+      }
+    },
+    {
+      "id": "743b",
+      "cityName": "Jumilla",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-01T10:23:42.667Z",
+      "notes": "",
+      "position": {
+        "lat": "38.44743739205206",
+        "lng": "-1.4267879221080284"
+      }
+    },
+    {
+      "id": "14df",
+      "cityName": "Almenar de Soria",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-01T10:23:56.803Z",
+      "notes": "",
+      "position": {
+        "lat": "41.67383867825457",
+        "lng": "-2.0853054246194263"
+      }
+    },
+    {
+      "id": "8cce",
+      "cityName": "Navas de San Antonio",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-01T10:23:59.366Z",
+      "notes": "",
+      "position": {
+        "lat": "40.7826294033359",
+        "lng": "-4.304411268871697"
+      }
+    },
+    {
+      "id": "f034",
+      "cityName": "Baralla",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-01T10:24:03.790Z",
+      "notes": "",
+      "position": {
+        "lat": "42.91594940690018",
+        "lng": "-7.335556262556989"
+      }
+    },
+    {
+      "id": "e5b8",
+      "cityName": "Madinat as Sadat",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-07-01T12:06:08.786Z",
+      "notes": "",
+      "position": {
+        "lat": "30.393987994376587",
+        "lng": "30.497848219503435"
+      }
+    }
+  ]
+}
